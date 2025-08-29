@@ -161,41 +161,17 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
-};
-
-// Some big projects you have worked on
-
-const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
+  display: true, // Set false to hide this section, defaults to true
+  contributions: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      name: "PyPI Package: SysBenchInfo",
+      description: "Published and maintain a Python package on PyPI for the open source community.",
+      url: "https://pypi.org/project/SysBenchInfo/"
     }
-  ],
-  display: true // Set false to hide this section, defaults to true
+    // Add more contributions as needed
+  ]
 };
+
 
 // Achievement Section
 // Include certificates, talks etc
@@ -350,7 +326,7 @@ export {
   techStack,
   workExperiences,
   openSource,
-  bigProjects,
+  // bigProjects,
   achievementSection,
   blogSection,
   talkSection,
